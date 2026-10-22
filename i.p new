@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My GitHub Page</title>
+    <!-- Links the separate CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Hello, GitHub!</h1>
+    <p>This is my website template hosted directly on GitHub.</p>
+
+    <button class="interactive-btn" onclick="incrementClick()">Click Me!</button>
+    <p id="counter-display">Button clicked: 0 times</p>
+
+    <!-- Links and runs the separate JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
